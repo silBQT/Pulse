@@ -14,3 +14,13 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 575px) {
+    .consultation {
+        min-height: 400px;
+        padding: 50px 0 54px 0;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}

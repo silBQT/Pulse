@@ -13,8 +13,27 @@
     }
 }
 
+@media (max-width: 991px) {
+    .title {
+        &_left {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        &_left {
+            line-height: 45px;
+        }
+    }
+}
+
 @media (max-width: 575px) {
     .title {
         font-size: 22px;
+        &_left {
+            line-height: 36px;
+        }
     }
 }
